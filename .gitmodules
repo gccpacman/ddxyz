@@ -1,0 +1,6 @@
+[submodule "dd_backend"]
+	path = dd_backend
+	url = https://github.com/gccpacman/ddproj-django.git
+[submodule "dd_frontend"]
+	path = dd_frontend
+	url = https://github.com/gccpacman/ddfront.git
