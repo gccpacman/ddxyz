@@ -1,6 +1,6 @@
 [submodule "dd_backend"]
 	path = dd_backend
-	url = https://gitlab.com/pacmac/dd_backend.git
+	url = https://gitlab.com/pacgroup/dd_backend.git
 [submodule "dd_frontend"]
 	path = dd_frontend
-	url = https://github.com/gccpacman/ddfront.git
+	url = https://github.com/pacgroup/dd_frontend.git
