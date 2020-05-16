@@ -1,0 +1,23 @@
+version: 3
+db:
+  image: mysql:5.7
+  ports:
+    - "32000:3306"
+  environment:
+    MYSQL_DATABASE: 'ddproj'
+    MYSQL_USER: 'ddxyz'
+    MYSQL_PASSWORD: 'dDxYz1@3#e'
+    MYSQL_ROOT_PASSWORD: 'xyz@DD2'
+  volumes:
+    - ./database:/docker-entrypoint-initdb.d/:ro
+app:
+  build: ./backend
+  environment:
+    - DD_BACKEND_ENV=PROD
+  depends_on:
+    - db
+  volumes:
+    - ./collected_static:/collected_static
+    - ./backend_media/:/backend_media
+  ports:
+    - "32001:8000"
