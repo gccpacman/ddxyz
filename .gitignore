@@ -1,2 +1,5 @@
 .DS_Store
 .idea/
+collected_static/
+backend_media/
+database/
