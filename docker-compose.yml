@@ -16,7 +16,7 @@ services:
     build: ./dd_backend
     restart: always
     environment:
-      - DD_BACKEND_ENV=PROD
+      - DD_BACKEND_ENV=DEV
     depends_on:
       - db
     volumes:
