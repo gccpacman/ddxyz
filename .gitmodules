@@ -4,3 +4,6 @@
 [submodule "dd_frontend"]
 	path = dd_frontend
 	url = https://github.com/pacgroup/dd_frontend.git
+[submodule "dd_app"]
+	path = dd_app
+	url = https://github.com/gccpacman/ddxyz_app.git
