@@ -1,0 +1,40 @@
+@Host = data1.library.sh.cn
+@Token = 3f5df65840c93fea3c1026b8a64649dffa3d6328
+
+
+### Person
+GET https://{{Host}}/data/jsonld?uri=http://{{Host}}/entity/person/hzbe6jakr7f8b4of&key={{Token}} HTTP/1.1
+
+###  Road List
+GET http://{{Host}}/shnh/wkl/webapi/road/list?type=2&key={{Token}}} HTTP/1.1
+
+### Architecture
+GET http://{{Host}}/shnh/gmwx/webapi/architecture/getArchitectures?isRed=3&pageth=109&key={{Token}}
+
+### 人名查询
+GET http://data1.library.sh.cn/persons/data?fname=巴金&key={{Token}}
+
+### 全文检索
+GET http://data1.library.sh.cn/persons/data?freetext=作家&key={{Token}}
+
+### 地名列表
+GET http://data1.library.sh.cn/place/listPlaces?key={{Token}}
+
+### 国外地点列表
+GET http://data1.library.sh.cn/place/listForeignPlaces?key={{Token}}
+
+### 地点
+GET https://{{Host}}/data/jsonld?uri=http://data.library.sh.cn/entity/place/3hzxvvo1m5b7iiie&key={{Token}}
+
+### 电影全文检索
+GET http://data1.library.sh.cn/shnh/dydata/webapi/movie/getMovie?video=松花江上&key={{Token}}
+
+### 电影详细信息
+GET http://data1.library.sh.cn/shnh/dydata/webapi/movie/movieDetail?uri=http://data.library.sh.cn/dy/resource/movie/612x1xoyxtzxuvaf&key={{Token}}
+
+### 期刊 高级检索
+GET http://data1.library.sh.cn/shnh/dydata/webapi/magazine/getMagazineList?foafName=美术电影&key={{Token}}
+
+### 期刊详细信息
+GET https://data1.library.sh.cn/shnh/dydata/webapi/magazine/magazineDetail?uri=http://data.library.sh.cn/dy/resource/magazine/0bmqz7ijyfipn57j&key={{Token}}
+
