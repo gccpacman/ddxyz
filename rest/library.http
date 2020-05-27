@@ -27,10 +27,10 @@ GET http://data1.library.sh.cn/place/listForeignPlaces?key={{Token}}
 GET https://{{Host}}/data/jsonld?uri=http://data.library.sh.cn/entity/place/3hzxvvo1m5b7iiie&key={{Token}}
 
 ### 电影全文检索
-GET http://data1.library.sh.cn/shnh/dydata/webapi/movie/getMovie?video=松花江上&key={{Token}}
+GET http://data1.library.sh.cn/shnh/dydata/webapi/movie/getMovie?video=红楼&key={{Token}}
 
 ### 电影详细信息
-GET http://data1.library.sh.cn/shnh/dydata/webapi/movie/movieDetail?uri=http://data.library.sh.cn/dy/resource/movie/612x1xoyxtzxuvaf&key={{Token}}
+GET http://data1.library.sh.cn/shnh/dydata/webapi/movie/movieDetail?uri=http://data.library.sh.cn/dy/resource/movie/mjke76sq7082e50s&key={{Token}}
 
 ### 期刊 高级检索
 GET http://data1.library.sh.cn/shnh/dydata/webapi/magazine/getMagazineList?foafName=美术电影&key={{Token}}
@@ -38,3 +38,24 @@ GET http://data1.library.sh.cn/shnh/dydata/webapi/magazine/getMagazineList?foafN
 ### 期刊详细信息
 GET https://data1.library.sh.cn/shnh/dydata/webapi/magazine/magazineDetail?uri=http://data.library.sh.cn/dy/resource/magazine/0bmqz7ijyfipn57j&key={{Token}}
 
+### 音乐
+GET http://data1.library.sh.cn/shnh/dydata/webapi/music/musicDetail?uri=http://data.library.sh.cn/dy/resource/music/gdyr538dl6lfcck0&key={{Token}}
+
+### 音乐全文检索
+
+GET http://data1.library.sh.cn/shnh/dydata/webapi/music/getMusicList?freetext=风云&key={{Token}}
+
+
+### audio
+
+GET https://{{Host}}/data/jsonld?uri=http://data.library.sh.cn/dy/resource/music/sgraidabuw2i8qvy&key={{Token}}
+
+### photo
+GET http://data1.library.sh.cn/shnh/dydata/webapi/photo/photoDetail?uri=http://data.library.sh.cn/dy/resource/photo/ydyxfnac33hvflz0&key={{Token}}
+
+### video
+GET http://data1.library.sh.cn/shnh/dydata/webapi/video/videoDetail?uri=http://data.library.sh.cn/dy/resource/video/qzwpdwkeany4pp5r&key={{Token}}
+
+### 期刊
+
+GET https://data.cnbksy.com/competitionSearch?key={{Token}}&searchContent=TI:老字号
